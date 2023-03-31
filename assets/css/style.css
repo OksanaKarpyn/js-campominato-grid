@@ -8,7 +8,7 @@ li{
     display: inline-block;
 }
 :root{
-    --bg-col-green:#7FFFD4;
+    --bg-col-green:#CEE8E0;
     --bg-col-gray:#c3c3c8;
 }
 h2{
@@ -47,9 +47,11 @@ h2{
     width: calc(100% / 10);
     border: 1px solid black;
     padding: 10px;
+    cursor: pointer;
+    background-color: rgba(235, 248, 248, 0.822);
 }
 .coral{
-    background-color: coral;
+    background-color: rgba(56, 187, 210, 0.951);
 }
 .footer {
 }
