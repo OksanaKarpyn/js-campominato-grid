@@ -15,17 +15,7 @@ h2{
     display: inline-block;
 }
 .wrapper {
-    
     height: 100vh;
-}
-.container-fluid {
-}
-.header {
-}
-.header-row {
-}
-.nav {
-    
 }
 .img{
     width: 20%;
@@ -40,21 +30,28 @@ h2{
 }
 .box-items {
 }
-.box{
+.box-100,.box-81,.box-49{
+    aspect-ratio: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: calc(100% / 10);
     border: 1px solid black;
     padding: 10px;
     cursor: pointer;
     background-color: rgba(235, 248, 248, 0.822);
 }
-.coral{
+.box-100{
+    width: calc(100% / 10);
+}
+.box-81{
+    width: calc(100% / 9);
+}
+.box-49{
+    width: calc(100% / 7);
+}
+.list-select{
+    display: none;
+}
+.blue{
     background-color: rgba(56, 187, 210, 0.951);
-}
-.footer {
-}
-.footer-row {
-    
 }
